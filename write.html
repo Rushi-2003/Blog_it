@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog It - Write</title>
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="write.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo.png" alt="Blog It Logo" />
+        <h1>Blog It</h1>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="write.html" class="active">Write</a>
+      </nav>
+    </header>
+    <main>
+      <section id="write-blog">
+        <input
+          type="text"
+          id="blog-title"
+          placeholder="Enter your blog title"
+        />
+        <textarea
+          id="blog-content"
+          placeholder="Write your blog post here"
+        ></textarea>
+        <input type="file" id="media-upload" accept="image/*,video/*" />
+        <button id="post-button">Post Blog</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
